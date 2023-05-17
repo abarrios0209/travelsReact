@@ -1,0 +1,46 @@
+.imagenes-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .imagen {
+    width: 140px; /* Establece el ancho deseado */
+    height: 200px; /* Establece la altura deseada */
+    object-fit: cover; /* Opcional: ajusta la imagen para cubrir el tamaño establecido */
+  }
+
+.textCard{
+    height: 69px;
+    overflow-x: auto;
+}
+
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.input-container input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+}
+
+.input-container input:focus {
+  outline: none;
+  border-color: #8ac6d1;
+  box-shadow: 0 0 5px #8ac6d1;
+}
+
+.input-container .search-icon {
+  position: absolute;
+  right: 10px;
+  color: #888;
+  cursor: pointer;
+}
+
+.input-container .search-icon:hover {
+  color: #333;
+}
